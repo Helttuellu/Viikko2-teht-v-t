@@ -1,0 +1,79 @@
+body
+{
+  background-color: beige;
+  padding: 20px;
+}
+table{
+text-align: right;
+border-collapse: collapse;
+}
+td{
+  width: 20px;
+}
+
+.kuva
+{
+  width: 500px;
+  float:left;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+
+}
+#tYksi{
+  background-color: rgb(255, 165, 0) ;
+}
+#tKaksi{
+  background-color: hsl(0, 100%, 90%);
+}
+#tKolme{
+    background-color: hsl(60, 100%, 50%);
+}
+#tNelja{
+    background-color: lightgreen;
+}
+#tViisi{
+    background-color: skyblue;
+}
+#t1{
+  background-color: orange;
+}
+#t2{
+  background-color: #FFCCCC;
+}
+#t3{
+    background-color: #FFFF99;
+}
+#t4{
+    background-color: #B3FFB3;
+}
+#t5{
+    background-color: #B3D1FF;
+}
+#t6{
+  background-color: #9DF9EF;
+}
+#t7{
+  background-color: #EDF7F6;
+}
+#t8{
+  background-color: #FFA8B5;
+}
+#t9{
+  background-color: #d0bdf4;
+}
+#t10{
+  background-color: #fceed1;
+}
+#t11{
+  background-color: #39a0ca;
+}
+#yksi{
+  background-color: #FECC84;
+}
+#kaksi{
+  background-color: #FFCCCC;
+}
+#kolme{
+    background-color: #FFFF99;
+}
