@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Helina Vainult V2</title>
+    <!--The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.-->
+    <link rel="stylesheet" href="ikkunat.css">
+    <!--The <script> element either contains scripting statements, or it points to an external script file through the src attribute.-->
+    <script type="text/javascript" src="ratkaiSukset.js">
+    </script>
+  </head>
+
+  <body>
+        <!--The <article> tag specifies independent, self-contained content.-->
+        <!--The HTML id attribute is used to specify a unique id for an HTML element.-->
+        <article class='kuva' id='tYksi'>
+        <h1>Tehtävä 1</h1>
+        <p>Tee ohjelma, joka pyytää käyttäjältä kolmea numeroa ja laittaa ne järjestykseen</p>
+        <!--This chapter describes the different attributes for the HTML <form> element.-->
+        <!--The action attribute specifies where to send the form-data when a form is submitted.-->
+        <!--The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute).-->
+        <form class="" action="index.html" method="post">
+          <!--The <input> tag specifies an input field where the user can enter data.-->
+          <p>Anna 1. numero: <input type="text" id="ensimmäinen" value=""></p>
+          <p>Anna 2. numero: <input type="text" id="toinen" value=""></p>
+          <p>Anna 3. numero: <input type="text" id="kolmas" value=""></p>
+          <!--The onclick event occurs when the user clicks on an element.-->
+          <button type="button" name="button" onclick="jono()">Järjestä luvut</button>
+                    <p id="luv"></p>
+                   <p id="vastaus"></p>
+          </form>
+      </article>
+
+
+      <article  class='kuva' id='tKaksi'>
+        <h1>Tehtävä 2</h1>
+        <p>Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna 1. luku: <input type="text" id="nro1" value=""></p>
+          <p>Anna 2. luku: <input type="text" id="nro2" value=""></p>
+          <p>Anna 3. luku: <input type="text" id="nro3" value=""></p>
+          <p>Anna 4. luku: <input type="text" id="nro4" value=""></p>
+          <p>Anna 5. luku: <input type="text" id="nro5" value=""></p>
+          <button type="button" name="button" onclick="jonoS()">Etsi suurin numero</button>
+          <p id="sLuvut"></p>
+          <p id="sVastaus"></p>
+        </form>
+      </article>
+
+
+      <article  class='kuva' id='tKolme'>
+        <h1>Tehtävä 3</h1>
+        <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
+        <p>Anna luku: <input type="text" id="aluku" value=""></p>
+        <button type="button" name="button" onclick="pluku()">Tarkista</button>
+        <p id="pLuvut"></p>
+      </article>
+
+
+  <article  class='kuva' id='tNelja'>
+    <h1>Tehtävä 4</h1>
+      <p>Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: <16v - polkupyörää, <18v - mopoa, muutoin autoa.</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna käyttäjän ikä: <input type="text" id="ika" value=""></p>
+            <button type="button" name="button" onclick="aKortti()">Näytä ajoneuvo</button>
+            <p id="aLuvut"></p>
+      </form>
+    </article>
+
+
+    <article  class='kuva' id='tViisi'>
+      <h1>Tehtävä 5</h1>
+        <p>Kirjoita ohjelma, joka kääntää "Hei maailma" - tekstin valitulle kielelle (englanti, ruotsi, espanja).</p>
+        <p>Valitse kieli</p>
+          <select class="" id="kieli">
+              <!--The <option> tag defines an option in a select list.-->
+              <option value="engl">Englanti</option>
+              <option value="se">Ruotsi</option>
+              <option value="es">Espanja</option>
+          </select>
+            <button type="button" id="button" onclick="tulkki()">Käännä</button>
+
+</html>
