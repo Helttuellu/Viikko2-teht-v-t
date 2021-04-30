@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 16, 2021, 10:11:02 AM
+    Author     : IAmAD
+*/
+
+.simple_divisions{
+    margin: 20px;
+    padding: 10px;
+    border: 2px;
+    background: gray;
+    width: 300px;
+    height: auto;
+}
+
+.fix-width{
+    min-width: 200px;
+}
+
+.submitbutton1{
+    margin: 10px;
+    margin-left: 30%;
+}
+
+.fix-width1{
+  margin: 5px;
+  padding: 2px;
+}
+
+.simple_divisions1{
+    margin: 20px;
+    padding: 10px;
+    border: 2px;
+    background: gray;
+    width: 200px;
+    height: auto;
+}
+
+.outputfield{
+    width: 170px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
